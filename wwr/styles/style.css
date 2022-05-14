@@ -102,6 +102,10 @@ footer a:hover{
     color:#0179B9
 }
 
+footer img{
+    width: 2.5%;
+}
+
 .logo{
     width: 80px;
 }
