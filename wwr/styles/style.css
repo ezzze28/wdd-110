@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Merriweather+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Merriweather+Sans:wght@600&family=Raleway&family=Roboto:wght@500&display=swap');
 
-#content{
+    #content{
    max-width: 1600px;
    margin: 0 auto;
 }
@@ -14,7 +14,7 @@ nav a{
 
 #hero-msg h1{
     text-align: center;
-    font-family: Merryweather sans, sans-serif;
+    font-family: Merryweather sans, Roboto, sans-serif;
 }
 
 #hero-msg h4{
@@ -38,7 +38,7 @@ main section{
 
 body{
     background-color: #F5F5F5;
-    font-family: League Spartan, sans-serif;
+    font-family: League Spartan, Raleway, sans-serif;
     font-size: 22px;
     margin: 0px;
     padding: 0px;  
@@ -88,7 +88,7 @@ nav a:hover{
 
 .msg h2{
     color: #424242;
-    font-family: Merryweather sans, sans-serif;
+    font-family: Merryweather sans, Roboto, sans-serif;
 }
 
 .msg p{
@@ -108,7 +108,7 @@ footer {
 
 .home-title{
     color: white;
-    font-family: Merryweather sans, sans-serif;
+    font-family: Merryweather sans, Roboto, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
