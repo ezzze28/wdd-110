@@ -21,6 +21,15 @@ nav a{
     text-align: center;
 }
 
+#rivers-hero-msg h1{
+    text-align: left;
+    font-family: Merryweather sans, Roboto, sans-serif;
+}
+
+#rivers-hero-msg h4{
+    text-align: left;
+}
+
 .button-box{
     text-align: center;
 }
@@ -110,7 +119,7 @@ footer {
     color: white;
     font-family: Merryweather sans, Roboto, sans-serif;
     font-size: 2em;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 h4{
@@ -207,6 +216,12 @@ main section img{
     margin-top: 100px;
 }
 
+#rivers-hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
 main{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -225,6 +240,57 @@ main{
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+  }
+  
+  input[type=submit] {
+    background-color: #0179B9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #014366;
+  }
+  
+  .contact_form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+.idaho-river{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#idaho-map{
+    grid-column: 1/2;
+    grid-row: 0/1;
+}
+
+#idaho-river{
+    grid-column: 2/3;
+    grid-row: 0/1;
+    z-index: 0;
+}
+
+#river-msg{
+    grid-column: 2/3;
+    grid-row: 0/1;
 }
 
 @media screen and (max-width: 900px) {

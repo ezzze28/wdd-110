@@ -23,37 +23,31 @@
     </header>
     <div id="hero">
         <div id="hero-box">
-            <img id="hero-img" src="images/hero.jpg" alt="People enjoying rafting">
+            <img id="hero-img" src="images/building.jpg" alt="Background">
         </div>
         <section id="hero-msg">
             <h1 class="home-title">Contact Us</h1>
-            <h4>Send us a message</h4>
+            <h4>Send us a message to make your reservation</h4>
         </section>
     </div>
-    <main class="home-grid">
-        <section class="rivers-card">
-            <a href="rivers.html"><img class="card-img" src="images/rivers.jpg" alt="river in forest"></a>
-            <img class="icon" src="images/river_icon.png" alt="river icon">
-            <h2>Rivers</h2>
-        </section>
-        <section class="camping-card">
-            <a href="camping.html"><img class="card-img" src="images/camping.jpg" alt="tent in mountains"></a>
-            <img class="icon" src="images/fire_icon.png" alt="fire icon">
-            <h2>Camping</h2>
-        </section>
-        <section class="rapids-card">
-            <a href="rapids.html"><img class="card-img" src="images/rapids.jpg" alt="rafting boat"></a>
-            <img class="icon" src="images/oars_icon.png" alt="oars icon">
-            <h2>Rapids</h2>
-        </section>
-        <div id="background"></div>
-        <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
-        <section class="msg">
-            <h2>More Than Just The Thrill</h2>
-            <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
-            <a class="join" href="contactus.html">Join Us</a>
-        </section>
-    </main>
+    <div class="contact_form">
+        <form action="">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="state">State</label>
+          <select id="state" name="state">
+            <option value="idaho">Idaho</option>
+            <option value="utah">Utah</option>
+            <option value="arizona">Arizona</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
     <footer>
             <h3> Legacy Rafting Club &copy; 2022 - Ezequiel Nicolidakis</h3>
             <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
