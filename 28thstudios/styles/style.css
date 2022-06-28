@@ -1,0 +1,26 @@
+.hero-img img{
+    width: 100%
+}
+
+header{
+    opacity: 85%;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+body{
+    background-color: #FFFFFF;
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px;  
+}
+
+.logo{
+    width: 80px;
+}
