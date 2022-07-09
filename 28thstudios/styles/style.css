@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans&family=Prompt:wght@800&family=Titillium+Web&display=swap');
 
+img {
+    max-width: 100%;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto; 
@@ -188,4 +192,106 @@ h1, h2{
 
 a, p, h3, h4{
     font-family: Titillium web, roboto, sans-serif;;
+}
+
+#explore_title{
+    text-align: center;
+    margin: 0 auto; 
+    margin-top: 40px;
+}
+
+.game_card {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 65% 163px 1fr;
+    grid-template-rows: 40px 30% 80px 1fr;
+}
+
+.card_back {
+    z-index: -1;
+    width: 100%;
+    grid-column: 1 / 4;
+    grid-row: 1 / 5;
+}
+
+
+.card_text {
+    margin-left: 40px;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #373A3C;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card_text h2{
+    color: #FF6100;
+}
+
+.card_text p{
+    color: #FFFFFF;
+}
+
+.card_btn {
+    margin-left: 40px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: white;
+    grid-column: 2;
+    grid-row: 3;
+    text-decoration: none;
+}
+
+.card_btn a{
+    text-decoration: none;
+}
+
+.hero_grid{
+    background-color: #161616;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#dawg_hero{
+    width: 20%;
+    height: 600px;
+    object-fit: cover;
+    grid-column: 1;
+    transition: transform .5s;
+}
+
+#go_hero{
+    width: 20%;
+    height: 600px;
+    object-fit: cover;
+    grid-column: 2;
+    transition: transform .5s;
+}
+
+#soldier_hero{
+    width: 19%;
+    height: 600px;
+    object-fit: cover;
+    grid-column: 3;
+    transition: transform .5s;
+}
+
+#house_hero{
+    width: 20%;
+    height: 600px;
+    object-fit: cover;
+    grid-column: 4;
+    transition: transform .5s;
+}
+
+#pirate_hero{
+    width: 19%;
+    height: 600px;
+    object-fit: cover;
+    grid-column: 5;
+    transition: transform .5s;
+}
+
+#dawg_hero:hover, #go_hero:hover, #soldier_hero:hover, #house_hero:hover, #pirate_hero:hover{
+    transform: scale(1.2);
 }
