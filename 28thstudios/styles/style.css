@@ -14,10 +14,13 @@ img {
 }
 
 header{
+    width: 100%;
+    height: 90px;
     background-color: #FFFFFF;
     opacity: 90%;
     display: grid;
     grid-template-columns: 150px 48% 1fr;
+    position: fixed;
 }
 
 nav {
@@ -247,17 +250,20 @@ a, p, h3, h4{
 }
 
 .hero_grid{
+
     background-color: #161616;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 }
 
 #dawg_hero{
+    margin-top: 100px;
     width: 20%;
     height: 600px;
     object-fit: cover;
     grid-column: 1;
     transition: transform .5s;
+    z-index: -1;
 }
 
 #go_hero{
@@ -295,3 +301,32 @@ a, p, h3, h4{
 #dawg_hero:hover, #go_hero:hover, #soldier_hero:hover, #house_hero:hover, #pirate_hero:hover{
     transform: scale(1.2);
 }
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 600px;
+    width: 20%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+ .overlay:hover{
+    opacity: 0.5;
+ }
+
+ .hover_dawg{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+ }
